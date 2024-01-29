@@ -35,6 +35,8 @@ android {
     }
 }
 
+tasks.whenTaskAdded {}
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
